@@ -20,7 +20,8 @@ display: flex;
 
 function Favorites() {
     const addFavorite = useSelector(state => state.addFavorite)
-
+    const unique = new Set([...addFavorite])
+    console.log(unique, "unique")
     return (
         <>
             <Navbar />

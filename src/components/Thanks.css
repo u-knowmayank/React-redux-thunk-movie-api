@@ -1,0 +1,27 @@
+.thx {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 732px;
+    border-radius: 9px;
+    border: 1px solid;
+    transition: .8s;
+    box-shadow: 5px 10px rgb(78, 78, 78);
+}
+
+.thx:hover {
+    transform: scale(1.1);
+}
+
+.nav {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}

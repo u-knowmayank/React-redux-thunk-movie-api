@@ -1,0 +1,44 @@
+.changeColor {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.changeColor:hover {
+
+
+    color: rgb(209, 24, 24);
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 94%;
+    transition: 0.8s ease;
+    opacity: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.p {
+    flex: 50%;
+    font-size: 13px;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
